@@ -141,6 +141,7 @@ export default class FlipNumber extends React.Component<Props, State> {
                 alignItems: 'center',
                 textAlign: 'center',
                 WebkitFontSmoothing: 'antialiased',
+                backfaceVisibility:"hidden",
                 color,
                 background,
                 transform: `rotateX(${rotateDegreePerNumber * i}deg) translateZ(${translateZ}px)`,
